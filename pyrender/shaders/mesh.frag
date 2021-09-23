@@ -123,12 +123,8 @@ in mat3 tbn;
 #endif
 #endif
 #endif
-#ifdef TEXCOORD_0_LOC
 in vec2 uv_0;
-#endif
-#ifdef TEXCOORD_1_LOC
 in vec2 uv_1;
-#endif
 #ifdef COLOR_0_LOC
 in vec4 color_multiplier;
 #endif
